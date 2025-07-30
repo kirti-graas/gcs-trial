@@ -10,7 +10,7 @@ def file_matches(filename, match_conditions):
 
 def move_matching_files(match_conditions):
     
-    BUCKET_NAME = "msp_data_live"
+    BUCKET_NAME = "msp_data_stage"
     BASE_PREFIX = "home/server/scrappeddata/msp_data/"
 
     client = storage.Client()
